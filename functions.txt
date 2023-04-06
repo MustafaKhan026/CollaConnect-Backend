@@ -1,0 +1,6 @@
+1.signup and login
+2.create posts( only if user is logged in)
+3.show all posts with connect button,desc,title and user infowho posted it with profile picture
+4.update user profile
+5.delete own posts
+6.filter posts by category
