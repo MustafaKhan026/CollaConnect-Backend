@@ -24,6 +24,7 @@ const PostSchema = new mongoose.Schema({
     deadline:{
     type:String,
         required:true
+    }
 })
 
 module.exports = mongoose.model("Post", PostSchema);
