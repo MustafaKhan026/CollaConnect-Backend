@@ -86,7 +86,7 @@ router.post("/create", async (req, res) => {
       } else {
         posts = await Post.find();
       }
-      res.status(200).json(posts).sort({ createdAt: -1 });
+      res.status(200).json(posts);
     } catch (err) {
       res.status(500).json(err);
     }
