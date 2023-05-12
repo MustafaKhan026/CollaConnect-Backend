@@ -24,7 +24,8 @@ const PostSchema = new mongoose.Schema({
     deadline:{
     type:String,
         required:true
-    }
+    },
+    { timestamps: true }
 })
 
 module.exports = mongoose.model("Post", PostSchema);
